@@ -1,0 +1,35 @@
+{
+  "name": "typescript-toy-problems",
+  "version": "0.0.1",
+  "description": "A repository to share toy-problem prompts with tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.sweetwater.com:jeremy_england/typescript-toy-problems.git"
+  },
+  "author": "Jeremy England",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5",
+    "@babel/preset-typescript": "^7.21.5",
+    "@jest/globals": "^29.5.0",
+    "@types/jest": "^29.5.1",
+    "babel-jest": "^29.5.0",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.59.7",
+    "@typescript-eslint/parser": "^5.59.7",
+    "eslint": "^8.41.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.8",
+    "typescript-eslint": "^0.0.1-alpha.0"
+  }
+}
